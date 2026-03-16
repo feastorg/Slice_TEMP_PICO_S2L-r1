@@ -13,3 +13,7 @@ This directory holds all the docs.
 - **DIP Switches**  
   [CTS 219-2MST x2 (Digi-Key)](https://www.digikey.ca/en/products/detail/cts-electrocomponents/219-2MST/223191)  
   [CTS 219-4MSTR x4 (Digi-Key)](https://www.digikey.ca/en/products/detail/cts-electrocomponents/219-4MSTR/480303)
+
+## Externally Powering the Pico
+[Guide to powering the Raspberry Pi Pico
+](https://www.penguintutor.com/electronics/pico-power

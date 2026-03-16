@@ -26,15 +26,10 @@ This Slice is designed to serve as a template slice for creating new SLICE modul
 ### DUMP
 
 - Supported MCU Dev Boards:
-  - Arduino Nano Original (ATMega328P)
-  - Arduino Nano Every (ATMega4809)
-  - STM32 Nucleo-32 series (e.g. L432KC, F303K8)
-  - Other Nano-format boards also supported:
-    - Any MCU board using the standard Arduino Nano pinout and 0.1" dual-row 15x2 header format
-    - Nano ESP32 and ESP32-S2 variants with Nano footprint (e.g. Nano ESP32 by Arduino, or 3rd party clones)
-    - RP2040 Nano-form boards (e.g. Nano RP2040 Connect, Seeed Studio RP2040 Nano)
-    - CH32V203 or CH32V003 Nano-format RISC-V dev boards
-
+  - Raspberry Pi Pico (RP2040)
+  - Raspberry Pi Pico W (RP2040)
+  - Raspberry Pi Pico 2 (RP2350)
+  - Raspberry Pi Pico 2 W (RP2350)
 ## 🔋 Power Domains
 
 - Logic power: ...
