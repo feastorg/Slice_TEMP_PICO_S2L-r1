@@ -15,5 +15,4 @@ This directory holds all the docs.
   [CTS 219-4MSTR x4 (Digi-Key)](https://www.digikey.ca/en/products/detail/cts-electrocomponents/219-4MSTR/480303)
 
 ## Externally Powering the Pico
-[Guide to powering the Raspberry Pi Pico
-](https://www.penguintutor.com/electronics/pico-power
+[Guide to powering the Raspberry Pi Pico](https://www.penguintutor.com/electronics/pico-power)

@@ -21,3 +21,6 @@ fp-lib-table
 *.log
 *.bak
 *.swp
+
+# Ignore Other
+*.obsidian/

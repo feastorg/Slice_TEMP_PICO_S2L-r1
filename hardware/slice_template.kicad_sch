@@ -3584,7 +3584,7 @@
 	)
 	(rectangle
 		(start 303.53 31.75)
-		(end 322.58 168.91)
+		(end 327.66 168.91)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -4242,7 +4242,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 72.39) (xy 176.53 72.39)
+			(xy 172.72 72.39) (xy 175.26 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4821,7 +4821,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 69.85) (xy 176.53 69.85)
+			(xy 172.72 69.85) (xy 175.26 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5675,7 +5675,7 @@
 		)
 		(uuid "158cffdf-31f4-4717-9662-edfaf5a1a8d8")
 	)
-	(hierarchical_label "GPIO18"
+	(hierarchical_label "SPI0_SCK{slash}GPIO18"
 		(shape input)
 		(at 307.34 80.01 0)
 		(effects
@@ -5752,7 +5752,7 @@
 		)
 		(uuid "3488bb07-097d-43e5-9d01-42c67f7d5bf7")
 	)
-	(hierarchical_label "GPIO7"
+	(hierarchical_label "I2C_CLK{slash}GPIO7"
 		(shape input)
 		(at 307.34 146.05 0)
 		(effects
@@ -5763,7 +5763,7 @@
 		)
 		(uuid "3488bb07-097d-43e5-9d01-42c67f7d5bf8")
 	)
-	(hierarchical_label "GPIO6"
+	(hierarchical_label "I2C_SDA{slash}GPIO6"
 		(shape input)
 		(at 307.34 148.59 0)
 		(effects
@@ -5829,7 +5829,7 @@
 		)
 		(uuid "42b8e09e-959d-4c6d-be93-a2eae9b80492")
 	)
-	(hierarchical_label "GPIO16"
+	(hierarchical_label "SPI0_MISO{slash}GPIO16"
 		(shape input)
 		(at 307.34 74.93 0)
 		(effects
@@ -5840,9 +5840,9 @@
 		)
 		(uuid "44703152-98bb-449d-a7af-ed0b6659fb3b")
 	)
-	(hierarchical_label "I2C_DAT{slash}A4"
+	(hierarchical_label "I2C_SDA{slash}GPIO6"
 		(shape input)
-		(at 176.53 72.39 0)
+		(at 175.26 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5893,7 +5893,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7703792d-9dc6-4b22-a6dd-d09ceec80a42")
+		(uuid "7703792d-9dc6-4b22-a6dd-d09ceec80a43")
 	)
 	(hierarchical_label "GPIO28_ADC2"
 		(shape input)
@@ -5904,7 +5904,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7703792d-9dc6-4b22-a6dd-d09ceec80a42")
+		(uuid "7703792d-9dc6-4b22-a6dd-d09ceec80a44")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -5928,7 +5928,7 @@
 		)
 		(uuid "803f98e3-3d50-419a-ac9a-eb4ba63ed599")
 	)
-	(hierarchical_label "GPIO17"
+	(hierarchical_label "SPI0_~{CS}{slash}GPIO17"
 		(shape input)
 		(at 307.34 77.47 0)
 		(effects
@@ -5961,9 +5961,9 @@
 		)
 		(uuid "a1591f23-af1b-40f5-b3e1-c227b41d1ac5")
 	)
-	(hierarchical_label "I2C_CLK{slash}A5"
+	(hierarchical_label "I2C_CLK{slash}GPIO7"
 		(shape input)
-		(at 176.53 69.85 0)
+		(at 175.26 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5972,7 +5972,7 @@
 		)
 		(uuid "a583f7c6-4f78-4a0c-a426-76b8fcd585f1")
 	)
-	(hierarchical_label "GPIO19"
+	(hierarchical_label "SPI0_MOSI{slash}GPIO19"
 		(shape input)
 		(at 307.34 82.55 0)
 		(effects
