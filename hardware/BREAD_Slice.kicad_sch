@@ -1182,26 +1182,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO22" input
-			(at 45.72 156.21 0)
-			(uuid "531c15cb-85df-414d-81fe-bb32d64c1d46")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO26_ADC0" input
-			(at 45.72 168.91 0)
-			(uuid "cb03665e-e4ee-46b7-bd82-5dcbe303f6b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPIO27_ADC1" input
 			(at 45.72 172.72 0)
 			(uuid "6eb885ff-0cb0-4378-8414-f823d2f300da")
@@ -1215,46 +1195,6 @@
 		(pin "GPIO28_ADC2" input
 			(at 45.72 176.53 0)
 			(uuid "df025b26-742a-45fd-a38e-c6a46c3646c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI0_MISO{slash}GPIO16" input
-			(at 45.72 133.35 0)
-			(uuid "1ffd51b9-43ac-41b9-abd3-bb62e34d04c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI0_MOSI{slash}GPIO19" input
-			(at 45.72 144.78 0)
-			(uuid "11742405-5f5b-4df2-bdc2-9c6b9ead2502")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI0_SCK{slash}GPIO18" input
-			(at 45.72 140.97 0)
-			(uuid "b6b03e7b-4c3b-415f-ab50-a3fd60038841")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI0_~{CS}{slash}GPIO17" input
-			(at 45.72 137.16 0)
-			(uuid "57d63e91-04bb-43fa-85db-1394da1b882b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,6 +1235,46 @@
 		(pin "I2C0_SDA{slash}GPIO20" input
 			(at 45.72 148.59 0)
 			(uuid "9749a6fa-daac-43db-944b-b6e4aa303cd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO16" input
+			(at 45.72 124.46 0)
+			(uuid "ab9632dd-8cea-476e-84a3-953f1ca2d74b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO17" input
+			(at 45.72 128.27 0)
+			(uuid "b38ce8fa-1835-4a3b-964c-2d3f63abeaa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO18" input
+			(at 45.72 132.08 0)
+			(uuid "2f99bac9-0b4b-410c-a038-4d3d0dd0f5c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO19" input
+			(at 45.72 135.89 0)
+			(uuid "a765f13b-cef0-4590-a994-76537271d6c9")
 			(effects
 				(font
 					(size 1.27 1.27)
