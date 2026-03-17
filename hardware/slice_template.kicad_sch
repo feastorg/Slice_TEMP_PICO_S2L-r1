@@ -4570,6 +4570,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 193.04) (xy 247.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61bdd3db-c13e-47fd-91b4-61cebb71ea13")
+	)
+	(wire
+		(pts
 			(xy 191.77 113.03) (xy 191.77 107.95)
 		)
 		(stroke
@@ -4654,6 +4664,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 190.5) (xy 332.74 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8df6d8-16bf-44e4-978c-b2923e09e065")
+	)
+	(wire
+		(pts
 			(xy 257.81 172.72) (xy 332.74 172.72)
 		)
 		(stroke
@@ -4684,7 +4704,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 109.22) (xy 266.7 109.22)
+			(xy 245.11 109.22) (xy 266.7 109.22)
 		)
 		(stroke
 			(width 0.2032)
@@ -4703,6 +4723,16 @@
 			(color 194 0 194 1)
 		)
 		(uuid "717981d3-804b-4bad-bed1-b5534e44b317")
+	)
+	(wire
+		(pts
+			(xy 248.92 114.3) (xy 248.92 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77be5413-1361-4358-9b24-8e1a7400d75b")
 	)
 	(wire
 		(pts
@@ -4734,6 +4764,16 @@
 			(type default)
 		)
 		(uuid "80a6332d-5ddd-4ada-b2bb-d27e213e3ca2")
+	)
+	(wire
+		(pts
+			(xy 332.74 193.04) (xy 247.65 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815b7c59-9ee5-4898-9d35-cd0be4dcecf4")
 	)
 	(wire
 		(pts
@@ -5148,6 +5188,26 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 114.3) (xy 248.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8780f40-0c3a-4989-afe6-031ebaaa8aa6")
+	)
+	(wire
+		(pts
+			(xy 247.65 111.76) (xy 266.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9610b46-3f44-461e-81ec-c8443118b9f8")
+	)
+	(wire
+		(pts
 			(xy 289.56 77.47) (xy 289.56 83.82)
 		)
 		(stroke
@@ -5242,7 +5302,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 167.64) (xy 248.92 167.64)
+			(xy 218.44 167.64) (xy 245.11 167.64)
 		)
 		(stroke
 			(width 0.2032)
@@ -5347,7 +5407,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 109.22) (xy 248.92 167.64)
+			(xy 245.11 109.22) (xy 245.11 167.64)
 		)
 		(stroke
 			(width 0.2032)
@@ -5888,6 +5948,28 @@
 			(justify left)
 		)
 		(uuid "5af734f7-c8d5-4ba7-81a6-402020afaab1")
+	)
+	(hierarchical_label "GPIO3"
+		(shape input)
+		(at 332.74 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b842021-84e6-45b8-a0fc-39973c700a01")
+	)
+	(hierarchical_label "GPIO2"
+		(shape input)
+		(at 332.74 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b842021-84e6-45b8-a0fc-39973c700a01")
 	)
 	(hierarchical_label "3V3_EN"
 		(shape input)

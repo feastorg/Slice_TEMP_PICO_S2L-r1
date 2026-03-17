@@ -1073,7 +1073,7 @@
 			)
 		)
 		(pin "GPIO4" input
-			(at 45.72 78.74 0)
+			(at 45.72 87.63 0)
 			(uuid "6be543bf-25cd-4f8d-90c9-3d7802132545")
 			(effects
 				(font
@@ -1083,7 +1083,7 @@
 			)
 		)
 		(pin "GPIO5" input
-			(at 45.72 82.55 0)
+			(at 45.72 91.44 0)
 			(uuid "2f1c2255-9194-48f5-b82b-cbf8bc93bf9f")
 			(effects
 				(font
@@ -1093,7 +1093,7 @@
 			)
 		)
 		(pin "GPIO8" input
-			(at 45.72 93.98 0)
+			(at 45.72 102.87 0)
 			(uuid "6e9d116a-518c-4140-9e9d-127d50b58db0")
 			(effects
 				(font
@@ -1103,7 +1103,7 @@
 			)
 		)
 		(pin "GPIO9" input
-			(at 45.72 97.79 0)
+			(at 45.72 106.68 0)
 			(uuid "6bf5b7b9-bb72-4732-807f-532e61d3e3e5")
 			(effects
 				(font
@@ -1113,7 +1113,7 @@
 			)
 		)
 		(pin "GPIO10" input
-			(at 45.72 101.6 0)
+			(at 45.72 110.49 0)
 			(uuid "e0e3c05f-0d3e-4113-ad14-ee260d28bba6")
 			(effects
 				(font
@@ -1123,7 +1123,7 @@
 			)
 		)
 		(pin "GPIO11" input
-			(at 45.72 105.41 0)
+			(at 45.72 114.3 0)
 			(uuid "7874de66-ab6d-4a11-92aa-c5de87d63d56")
 			(effects
 				(font
@@ -1133,7 +1133,7 @@
 			)
 		)
 		(pin "GPIO12" input
-			(at 45.72 109.22 0)
+			(at 45.72 118.11 0)
 			(uuid "e3c1c92a-eb55-4485-bfff-21961277cad8")
 			(effects
 				(font
@@ -1143,7 +1143,7 @@
 			)
 		)
 		(pin "GPIO13" input
-			(at 45.72 113.03 0)
+			(at 45.72 121.92 0)
 			(uuid "3cff1b1e-3821-4ccd-bd68-f3c8852aefda")
 			(effects
 				(font
@@ -1153,7 +1153,7 @@
 			)
 		)
 		(pin "GPIO14" input
-			(at 45.72 116.84 0)
+			(at 45.72 125.73 0)
 			(uuid "7fd88b5a-457d-4ba0-b627-7b8e81190190")
 			(effects
 				(font
@@ -1163,7 +1163,7 @@
 			)
 		)
 		(pin "GPIO15" input
-			(at 45.72 120.65 0)
+			(at 45.72 129.54 0)
 			(uuid "5be9a59e-5750-453c-8788-f393456a1698")
 			(effects
 				(font
@@ -1203,7 +1203,7 @@
 			)
 		)
 		(pin "GPIO6" input
-			(at 45.72 86.36 0)
+			(at 45.72 95.25 0)
 			(uuid "d97a7e59-1d11-4ba1-8b29-89a11fa9e5e1")
 			(effects
 				(font
@@ -1213,7 +1213,7 @@
 			)
 		)
 		(pin "GPIO7" input
-			(at 45.72 90.17 0)
+			(at 45.72 99.06 0)
 			(uuid "9cdcfd53-8d53-42f7-b9e2-e1419117cf5d")
 			(effects
 				(font
@@ -1223,7 +1223,7 @@
 			)
 		)
 		(pin "I2C0_CLK{slash}GPIO21" input
-			(at 45.72 152.4 0)
+			(at 45.72 162.56 0)
 			(uuid "3396a69a-53fb-4414-bb8d-532912dc6969")
 			(effects
 				(font
@@ -1233,7 +1233,7 @@
 			)
 		)
 		(pin "I2C0_SDA{slash}GPIO20" input
-			(at 45.72 148.59 0)
+			(at 45.72 158.75 0)
 			(uuid "9749a6fa-daac-43db-944b-b6e4aa303cd4")
 			(effects
 				(font
@@ -1243,7 +1243,7 @@
 			)
 		)
 		(pin "GPIO16" input
-			(at 45.72 124.46 0)
+			(at 45.72 138.43 0)
 			(uuid "ab9632dd-8cea-476e-84a3-953f1ca2d74b")
 			(effects
 				(font
@@ -1253,7 +1253,7 @@
 			)
 		)
 		(pin "GPIO17" input
-			(at 45.72 128.27 0)
+			(at 45.72 142.24 0)
 			(uuid "b38ce8fa-1835-4a3b-964c-2d3f63abeaa4")
 			(effects
 				(font
@@ -1263,7 +1263,7 @@
 			)
 		)
 		(pin "GPIO18" input
-			(at 45.72 132.08 0)
+			(at 45.72 146.05 0)
 			(uuid "2f99bac9-0b4b-410c-a038-4d3d0dd0f5c3")
 			(effects
 				(font
@@ -1273,8 +1273,28 @@
 			)
 		)
 		(pin "GPIO19" input
-			(at 45.72 135.89 0)
+			(at 45.72 149.86 0)
 			(uuid "a765f13b-cef0-4590-a994-76537271d6c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO2" input
+			(at 45.72 80.01 0)
+			(uuid "2598b4ef-de3c-4ec1-b793-144e69198ae1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO3" input
+			(at 45.72 83.82 0)
+			(uuid "f6bbf6ec-5226-48af-9f0b-ba29a16053c7")
 			(effects
 				(font
 					(size 1.27 1.27)
