@@ -547,19 +547,15 @@
 	)
 	(no_connect
 		(at 52.07 21.59)
-		(uuid "25694110-287c-4b96-a9d0-4ff616425010")
+		(uuid "595b05dd-bd8c-45f2-b9ae-e8dcbe341a1f")
 	)
 	(no_connect
-		(at 52.07 50.8)
-		(uuid "55832bb3-8ada-4d1b-b94c-fb1ec5b77462")
-	)
-	(no_connect
-		(at 52.07 66.04)
+		(at 52.07 72.39)
 		(uuid "fa76cf62-d611-44e3-b310-23515b3dfa01")
 	)
 	(wire
 		(pts
-			(xy 45.72 54.61) (xy 52.07 54.61)
+			(xy 45.72 60.96) (xy 52.07 60.96)
 		)
 		(stroke
 			(width 0.2032)
@@ -569,7 +565,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 46.99) (xy 52.07 46.99)
+			(xy 45.72 49.53) (xy 52.07 49.53)
 		)
 		(stroke
 			(width 0.2032)
@@ -609,7 +605,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 66.04) (xy 52.07 66.04)
+			(xy 45.72 72.39) (xy 52.07 72.39)
 		)
 		(stroke
 			(width 0.2032)
@@ -619,7 +615,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 50.8) (xy 52.07 50.8)
+			(xy 45.72 57.15) (xy 52.07 57.15)
 		)
 		(stroke
 			(width 0.2032)
@@ -704,7 +700,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.07 46.99 0)
+		(at 52.07 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -712,7 +708,7 @@
 		(dnp no)
 		(uuid "3f95df25-aca0-48f2-a192-5d9ca8ea8018")
 		(property "Reference" "#PWR03"
-			(at 52.07 50.8 0)
+			(at 52.07 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +717,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 52.07 43.434 0)
+			(at 52.07 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -729,7 +725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 46.99 0)
+			(at 52.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,7 +734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 46.99 0)
+			(at 52.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,7 +743,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 52.07 46.99 0)
+			(at 52.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,15 +829,15 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 52.07 54.61 0)
+		(lib_id "power:+5V")
+		(at 52.07 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7b4de9f3-c207-44ab-88e7-8a98d4b733c0")
-		(property "Reference" "#PWR04"
+		(uuid "735788e3-4685-45c7-b6a9-d67e737627ff")
+		(property "Reference" "#PWR05"
 			(at 52.07 60.96 0)
 			(effects
 				(font
@@ -850,8 +846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 52.07 58.166 0)
+		(property "Value" "+3V3"
+			(at 52.07 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 54.61 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +864,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 54.61 0)
+			(at 52.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 52.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6347912-afe6-4ad7-9da1-2c1671c7c024")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/66043bca-a260-4915-9fce-8a51d324c687"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4de9f3-c207-44ab-88e7-8a98d4b733c0")
+		(property "Reference" "#PWR04"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 54.61 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +993,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 45.72 50.8 0)
+			(at 45.72 57.15 0)
 			(uuid "7c1b3da0-f67b-4da6-89ab-bd2e2f4debd3")
 			(effects
 				(font
@@ -942,7 +1003,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 45.72 46.99 0)
+			(at 45.72 49.53 0)
 			(uuid "e6395652-40a1-4c1d-8992-5991ca8830aa")
 			(effects
 				(font
@@ -962,7 +1023,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 45.72 54.61 0)
+			(at 45.72 60.96 0)
 			(uuid "27f98a3b-15f0-47b4-ba9d-3d258c6e31c9")
 			(effects
 				(font
@@ -1002,7 +1063,7 @@
 			)
 		)
 		(pin "ADC_VREF" input
-			(at 45.72 66.04 0)
+			(at 45.72 72.39 0)
 			(uuid "ec9416b3-68e4-463d-8634-8c4f7e7144f5")
 			(effects
 				(font
@@ -1112,28 +1173,8 @@
 			)
 		)
 		(pin "AGND" input
-			(at 45.72 58.42 0)
+			(at 45.72 64.77 0)
 			(uuid "73fd7a26-4220-4996-aeff-37d1791463b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO20" input
-			(at 45.72 148.59 0)
-			(uuid "d66b4c39-459b-433d-8de7-80a3989ea0da")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO21" input
-			(at 45.72 152.4 0)
-			(uuid "00147184-ba1f-4ab7-be7b-f3fa66280ef5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,26 +1222,6 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_CLK{slash}GPIO7" input
-			(at 45.72 90.17 0)
-			(uuid "462e41fa-9743-4fd8-b2be-b4db16a113aa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C_SDA{slash}GPIO6" input
-			(at 45.72 86.36 0)
-			(uuid "604b17df-9cb9-4773-b3c7-29bda5e19cff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SPI0_MISO{slash}GPIO16" input
 			(at 45.72 133.35 0)
 			(uuid "1ffd51b9-43ac-41b9-abd3-bb62e34d04c8")
@@ -1234,6 +1255,46 @@
 		(pin "SPI0_~{CS}{slash}GPIO17" input
 			(at 45.72 137.16 0)
 			(uuid "57d63e91-04bb-43fa-85db-1394da1b882b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO6" input
+			(at 45.72 86.36 0)
+			(uuid "d97a7e59-1d11-4ba1-8b29-89a11fa9e5e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO7" input
+			(at 45.72 90.17 0)
+			(uuid "9cdcfd53-8d53-42f7-b9e2-e1419117cf5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_CLK{slash}GPIO21" input
+			(at 45.72 152.4 0)
+			(uuid "3396a69a-53fb-4414-bb8d-532912dc6969")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0_SDA{slash}GPIO20" input
+			(at 45.72 148.59 0)
+			(uuid "9749a6fa-daac-43db-944b-b6e4aa303cd4")
 			(effects
 				(font
 					(size 1.27 1.27)
