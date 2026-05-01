@@ -24,3 +24,6 @@ fp-lib-table
 
 # Ignore Other
 *.obsidian/
+
+# Ignore macOS system files
+.DS_Store
