@@ -1,6 +1,6 @@
 title: Slice_TEMP_NANO_S2L-r2 # template: ensure this gets updated when copying
 description: > # template: ensure this gets updated when copying
-  A FEASTorg project page for SLICE.
+  A FEASTorg project page for a Slice.
 baseurl: "/Slice_TEMP_NANO_S2L-r2" # template: ensure this gets updated when copying
 url: "https://feastorg.github.io"
 

@@ -6,7 +6,7 @@ name: "Slice Template — Pico, Small, 2-Layer, Rev 1"
 status: "released"
 category: "template"
 
-summary: "Starter template for BREAD slices using Raspberry Pi Pico on a small 2-layer PCB (70x100mm)."
+summary: "Starter template for BREADS-compatible Slices using Raspberry Pi Pico on a small 2-layer PCB (70x100mm)."
 description: null
 
 # ── Versioning ────────────────────────────────────────────────────────────────
