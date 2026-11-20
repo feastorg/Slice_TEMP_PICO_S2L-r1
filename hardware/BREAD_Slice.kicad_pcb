@@ -326,68 +326,6 @@
 			)
 		)
 	)
-	(footprint ""
-		(layer "F.Cu")
-		(uuid "1106f88a-baec-4e5f-9307-5468c4c8874c")
-		(at 137.5 86.275)
-		(property "Reference" ""
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(uuid "f87f0a68-5eb8-4d0e-82bb-957363b5d6e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "9b67fa34-1b95-456c-9f58-33224f0fa08e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93bd342e-aaa5-4229-9c71-551d3a178049")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89dd544c-2a79-472d-bf47-2e9100732c6a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(duplicate_pad_numbers_are_jumpers no)
-		(pad "2" smd roundrect
-			(at 0 0 270)
-			(size 3.5 1.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.15625)
-			(net "GND")
-			(pintype "passive")
-			(uuid "f1b79c6f-2754-487c-9b74-791a2c069925")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Module:RaspberryPi_Pico_Common_THT"
 		(layer "F.Cu")
 		(uuid "16045f62-f955-437b-9780-035ffbe129df")
@@ -8374,14 +8312,6 @@
 		(uuid "bc271666-a489-4317-851a-a57594e35d61")
 	)
 	(segment
-		(start 137.5 86.275)
-		(end 137.5 88.475)
-		(width 1)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "d808a4f9-605e-48d4-9bbc-622272b65844")
-	)
-	(segment
 		(start 137.5 129.7)
 		(end 137.5 131.9)
 		(width 1)
@@ -8632,24 +8562,6 @@
 		(uuid "8b63bd2e-6e33-4ba9-97a7-de5c76e68ef5")
 	)
 	(via
-		(at 137.5 88.475)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "GND")
-		(uuid "a6da96a7-b102-4efb-9df8-19ec60f20297")
-	)
-	(via
 		(at 136.875 117.57)
 		(size 0.8)
 		(drill 0.4)
@@ -8780,14 +8692,6 @@
 		(uuid "faac9a4e-044d-4d41-a7fd-91dc36ac2a66")
 	)
 	(segment
-		(start 128.7 110.445)
-		(end 129.375 110.445)
-		(width 1)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "040ee1a4-c198-4709-9856-e15dd7d09cbd")
-	)
-	(segment
 		(start 129.8875 115.05)
 		(end 128.8 115.05)
 		(width 0.5)
@@ -8876,22 +8780,6 @@
 		(uuid "84f740d3-aae5-42e4-b044-8bc06b020a61")
 	)
 	(segment
-		(start 133.175 88.475)
-		(end 137.5 88.475)
-		(width 1)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "94c8c3f2-1fa6-4c7a-a12f-0890800805af")
-	)
-	(segment
-		(start 130.85 108.97)
-		(end 130.85 90.8)
-		(width 1)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "970e6c17-ee1c-4ce1-8314-088ae2f7dca7")
-	)
-	(segment
 		(start 128.75 115.1)
 		(end 128.75 117.87)
 		(width 0.5)
@@ -8908,14 +8796,6 @@
 		(uuid "b109ecdf-0247-4706-90d0-982da64b39d0")
 	)
 	(segment
-		(start 130.85 90.8)
-		(end 133.175 88.475)
-		(width 1)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "cdaf692a-052f-4d66-98f7-f7817cc9c5f7")
-	)
-	(segment
 		(start 128.75 114.4)
 		(end 128.75 115.1)
 		(width 0.5)
@@ -8930,14 +8810,6 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "d91502bf-b951-43db-9785-d287d211c58c")
-	)
-	(segment
-		(start 129.375 110.445)
-		(end 130.85 108.97)
-		(width 1)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "e73f0ba6-9d54-41df-951c-53d21625ffc0")
 	)
 	(segment
 		(start 130.275 112.745)
